@@ -17,11 +17,14 @@ SimpleTimer lcdTimer(5000);
 void setup()
 {
   Serial.begin(115200);
-  // set up the LCD's number of columns and rows:
-  lcd.begin(0, 1);
+  // set up the LCD's number of columns and rows (c,r), only do this once on setup
+  lcd.begin(16, 2);
+  //row 0 = first
+  lcd.setCursor(0, 0);
   // Print a message to the LCD.
   lcd.print("LCD Interrupts");
-
+  //Move to second row for data
+  lcd.setCursor(0, 1);
 }
 
 void loop() {
@@ -29,10 +32,11 @@ void loop() {
       //Serial.println("5 seconds have passed");
       lcdTimer.reset();  
 
-      lcd.clear();//Clear the lcd screen
+      //lcd.clear();//Clear the lcd screen
       // set the cursor to column 0, line 1
       // (note: line 1 is the second row, since counting begins with 0):
-      lcd.setCursor(0, 0);
+      
+    
       // print the number of seconds since reset:
       lcd.print(a);
       ++a;
