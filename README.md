@@ -4,12 +4,14 @@ A temperature and humidity monitoring system primarly used for reptile terrarium
 
 ## Description
 
-A small design that focuses on generally accurate temperature and humidity levels from mobile and long reaching sensors. 
+A small design that focuses on generally accurate temperature and humidity levels from mobile/long reaching sensors. 
+View the data either through the onboard LCD display or remotely on a wifi device through Arduino Cloud
 
 ## Design
 
 It currently uses an ESP32-S3 breakout board along with two DHT11 sensors. The DHT11s where chosen for affordability and the need for general accuracy, not precesion.
 An onboard LCD screen is used to check sensor readings at any time. 
+The Arduino Cloud was chosen for remote access to the available data due to ease of use and simplistic nature.
 
 ## Getting Started
 
