@@ -1,66 +1,65 @@
 # Snake Tank
 
-A temperuature and humidity monitoring system.
+A temperature and humidity monitoring system primarly used for reptile terrariums. 
 
 ## Description
 
-A sub-project of my bioactive reptile enclosure that entails the use of electronics for remotely monitoring the environment. The goal is to be able to remotely and in person check the temperature and humidity of the tank.  
+A small design that focuses on generally accurate temperature and humidity levels from mobile/long reaching sensors. 
+View the data either through the onboard LCD display or remotely on a wifi device through Arduino Cloud
 
 ## Design
 
-It currently uses an ESP32-S3 breakout board along with two DHT11 sensors. The DHT11s where chosen for affordability and the need for general accuracy, not precesion. Later developements could include an LCD screen and webserver.
+It currently uses an ESP32-S3 breakout board along with two DHT11 sensors. The DHT11s where chosen for affordability and the need for general accuracy, not precesion.
+An onboard LCD screen is used to check sensor readings at any time. 
+The Arduino Cloud was chosen for remote access to the available data due to ease of use and simplistic nature.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Victoria Polda
+www.linkedin.com/in/victoriapolda
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+MIT License
+
+Copyright (c) 2024 Victoria Polda
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Inspired by my Ghost corn snake Kynes :) 
