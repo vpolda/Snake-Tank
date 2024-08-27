@@ -53,11 +53,10 @@ void loop() {
     lcd.setCursor(0, 0);
 
     if (result1 == 0) {
-      lcd.print("Temp 1: ");
+      lcd.print("T1:");
       lcd.print(temperature1);
-      lcd.print(" °C\tHumidity 1: ");
+      lcd.print("C H1:");
       lcd.print(humidity1);
-      lcd.print(" %");
     } else {
       // Print error message based on the error code.
       lcd.print(DHT11::getErrorString(result1));
@@ -71,11 +70,10 @@ void loop() {
     lcd.setCursor(0, 1);
 
     if (result2 == 0) {
-      lcd.print("Temp 2: ");
+      lcd.print("T2:");
       lcd.print(temperature2);
-      lcd.print(" °C\tHumidity 2: ");
+      lcd.print("C H2:");
       lcd.print(humidity2);
-      lcd.print(" %");
     } else {
       // Print error message based on the error code.
       lcd.print(DHT11::getErrorString(result2));
