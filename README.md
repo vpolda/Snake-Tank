@@ -16,6 +16,10 @@ The Arduino Cloud was chosen for remote access to the available data due to ease
 
 ## Getting Started
 
+### File Structure
+
+
+
 ### Dependencies
 
 
