@@ -4,16 +4,21 @@ A temperature and humidity monitoring system primarly used for reptile terrarium
 
 ## Description
 
-A small design that focuses on generally accurate temperature and humidity levels from mobile/long reaching sensors. 
+A custom ESP32-S3 PCB for temperature and humidity monitoring. Supports up to four (4) external DHT11 sensors, currently two are implemented externally. 
 View the data either through the onboard LCD display or remotely on a wifi device through Arduino Cloud
 
 ## Design
 
-It currently uses an ESP32-S3 breakout board along with two DHT11 sensors. The DHT11s where chosen for affordability and the need for general accuracy, not precesion.
+It currently uses an ESP32-S3-WROOM-1-N8 along with two DHT11 sensors. The DHT11s where chosen for affordability and the need for general accuracy, not precision.
+The DHT11 sensors are attached through an RJ45 port and an ethernet cable. These were chosen for their widely avaible nature and each RJ45 port can attach to two DHT11.
 An onboard LCD screen is used to check sensor readings at any time. 
 The Arduino Cloud was chosen for remote access to the available data due to ease of use and simplistic nature.
 
 ## Getting Started
+
+### File Structure
+
+
 
 ### Dependencies
 
