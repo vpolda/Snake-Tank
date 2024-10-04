@@ -5,7 +5,7 @@
 #include <LiquidCrystal.h>
  
 // initialize the library with the numbers of the interface pins
-//Goes RW, E, D4,D5,D6,D7
+//Goes RS, E, D4,D5,D6,D7
 LiquidCrystal lcd(45, 35, 38, 39, 40, 41);
 
 //Sensor stuff
