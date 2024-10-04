@@ -4,21 +4,38 @@ A temperature and humidity monitoring system primarly used for reptile terrarium
 
 ## Description
 
-A custom ESP32-S3 PCB for temperature and humidity monitoring. Supports up to four (4) external DHT11 sensors, currently two are implemented externally. 
-View the data either through the onboard LCD display or remotely on a wifi device through Arduino Cloud
+A custom ESP32-S3 PCB for temperature and humidity monitoring, along with camera monitoring. Supports up to four (4) external DHT11 sensors.
+View the data either through the onboard LCD display or remotely on a wifi device through Arduino Cloud.
+Two ESP32 Camera modules are attached externally for live video feed. 
 
 ## Design
 
-It currently uses an ESP32-S3-WROOM-1-N8 along with two DHT11 sensors. The DHT11s where chosen for affordability and the need for general accuracy, not precision.
+It currently uses an ESP32-S3-WROOM-1-N8 along with module DHT11 sensors. The DHT11s where chosen for affordability and the need for general accuracy, not precision.
 The DHT11 sensors are attached through an RJ45 port and an ethernet cable. These were chosen for their widely avaible nature and simplicity.
 An onboard LCD screen is used to check sensor readings at any time. 
 The Arduino Cloud was chosen for remote access to the available data due to ease of use and simplistic nature.
 
+The ESP32 cameras were selected for their independence with the ability to host their own webserver or connect to another remote server. While an onboard/connection is preferred, the simpliticy and power management setup would be easier to do.
+
 ## Getting Started
 
 ### File Structure
-
-
+ArduinoCloud - files pertaining to setting up arduino cloud
+Camera - Arduino code for each ESP32 camera. 
+   ESP32_camera_webserverHost: Hosting a webserver locally on each MCU
+Hardware
+   Datasheets: Self explain
+   KiCAD: Kicad project files for custom PCB w/ ESP32
+   snakeTank_currentEstimate: Power estimate SS
+Integration
+   LCD_DHT11: Arduino code for displaying data from sensors on LCD display
+OnboardDisplay
+   1602LCD: Basic test of displaying on 1602A
+   LCD_interrupt: Displaying on 1602 through Arduino interrupts and timers
+RemoteAccess
+SensorReading
+   DHT_test_arduino: Basic test of reading DHT11 data from module
+   DHT_dual: Running two sensors at once
 
 ### Dependencies
 
