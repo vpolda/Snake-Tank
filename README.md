@@ -17,6 +17,8 @@ The Arduino Cloud was chosen for remote access to the available data due to ease
 
 The ESP32 cameras were selected for their independence with the ability to host their own webserver or connect to another remote server. While an onboard/connection is preferred, the simpliticy and power management setup would be easier to do.
 
+A custom four layer PCB was designed for this project using a Signal+power/GND/GND/Signal+power stackup. This was done as a learning exercise for PCB best practices. The LCD screen is on the bottom side of the board to minimize PCB size.
+
 ## Getting Started
 
 ### File Structure
