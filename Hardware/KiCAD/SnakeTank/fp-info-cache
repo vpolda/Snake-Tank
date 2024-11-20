@@ -1,4 +1,4 @@
-23826321880760198
+23828053940217985
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56659,6 +56659,13 @@ TVS_ESD321DPYR
 2
 ESP32-S3-WROOM-1-N8
 XCVR_ESP32-S3-WROOM-1-N8
+
+
+0
+61
+61
+ESP32-S3-WROOM-1-N8R8
+XCVR_ESP32S3WROOM1N8R8
 
 
 0

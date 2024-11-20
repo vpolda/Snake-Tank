@@ -69,9 +69,7 @@
         "copper_edge_clearance|24773000|36896000|eca6f4ab-fe13-4084-82d6-2ae32e4a8f07|62666801-c8c9-4daf-b739-2d0a81b21e2e",
         "copper_edge_clearance|24773000|37161000|eca6f4ab-fe13-4084-82d6-2ae32e4a8f07|45c0f96f-9be4-4bce-bade-85ada79975a9",
         "copper_edge_clearance|24773000|37161000|eca6f4ab-fe13-4084-82d6-2ae32e4a8f07|533c877a-8929-4992-8a26-e862f2264e97",
-        "starved_thermal|24898000|29966000|da263ab8-7489-47df-8c72-355b66de1e87|d2706eed-2e1b-4940-9c11-ce82d8efd5e1|F.Cu",
-        "starved_thermal|28827000|36870000|da263ab8-7489-47df-8c72-355b66de1e87|45c9738e-0ea4-40ba-81ca-0ae86266c81f|F.Cu",
-        "starved_thermal|36576000|58029500|e103832b-3599-4fee-9fba-3c6b1e4ef833|9fa54cc9-2bbb-493b-9df3-62a4e4e422c2|B.Cu"
+        "starved_thermal|24898000|29966000|da263ab8-7489-47df-8c72-355b66de1e87|d2706eed-2e1b-4940-9c11-ce82d8efd5e1|F.Cu"
       ],
       "meta": {
         "version": 2
@@ -141,7 +139,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1778,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -230,11 +228,11 @@
         },
         {
           "diameter": 0.6,
-          "drill": 0.25
+          "drill": 0.3
         },
         {
           "diameter": 0.7,
-          "drill": 0.3
+          "drill": 0.35
         }
       ],
       "zones_allow_external_fillets": false
