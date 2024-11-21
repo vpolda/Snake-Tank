@@ -4,9 +4,7 @@ A temperature and humidity monitoring system primarly used for reptile terrarium
 
 ## Description
 
-A custom ESP32-S3 PCB for temperature and humidity monitoring, along with camera monitoring. Supports up to four (4) external DHT11 sensors.
-View the data either through the onboard LCD display or remotely on a wifi device through Arduino Cloud.
-Two ESP32 Camera modules are attached externally for live video feed. 
+A custom ESP32-S3 PCB for temperature and humidity monitoring, along with camera monitoring. Supports up to four (4) external DHT11 sensors. The data can either be monitored through the onboard LCD display or remotely on a wifi device through Arduino Cloud. Two ESP32 Camera modules are attached externally for live video feed.
 
 ## Design
 
