@@ -6,7 +6,7 @@ A temperature and humidity monitoring system primarly used for reptile terrarium
 
 A custom ESP32-S3 PCB for temperature and humidity monitoring, along with camera monitoring. Supports up to four (4) external DHT11 sensors. The data can either be monitored through the onboard LCD display or remotely on a wifi device through Arduino Cloud. Two ESP32 Camera modules are attached externally for live video feed.
 
-![SnakeTank PCB in KiCad 3D View](relative%20images/pcb.PNG/?raw=true "SnakeTank PCB in KiCAD 3D viewer")
+![SnakeTank PCB in KiCad 3D View](images/pcb.PNG/?raw=true "SnakeTank PCB in KiCAD 3D viewer")
 
 ## Design
 
