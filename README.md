@@ -34,15 +34,11 @@ A custom four layer PCB was designed for this project using a Signal+power/GND/G
    - snakeTank_currentEstimate: Power estimate SS
  
 - Software
-  - Integration
-   - LCD_DHT11: Arduino code for displaying data from sensors on LCD display
--    OnboardDisplay
-   - 1602LCD: Basic test of displaying on 1602A
+   - Integration: combining software modules
+   - OnboardDisplay: tests of the 1602A
    - LCD_interrupt: Displaying on 1602 through Arduino interrupts and timers 
--    SensorReading
-   - DHT_test_arduino: Basic test of reading DHT11 data from module
-   - DHT_dual: Running two sensors at once
-
+   - SensorReading: reading from the dht11 modules testing
+  
 ### Dependencies
 
 
