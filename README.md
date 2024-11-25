@@ -38,6 +38,7 @@ A custom four layer PCB was designed for this project using a Signal+power/GND/G
    - OnboardDisplay: tests of the 1602A
    - LCD_interrupt: Displaying on 1602 through Arduino interrupts and timers 
    - SensorReading: reading from the dht11 modules testing
+   - Camera: code for separate external esp32 cameras
   
 ### Dependencies
 
