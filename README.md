@@ -19,11 +19,12 @@ The ESP32 cameras were selected for their independence with the ability to host 
 
 A custom four layer PCB was designed for this project using a Signal+power/GND/GND/Signal+power stackup. This was done as a learning exercise for PCB best practices. The LCD screen is on the bottom side of the board to minimize PCB size.
 
+![SnakeTank PCB Schematic Main](images/sch_1.PNG/?raw=true "SnakeTank PCB Schematic Main")
+![SnakeTank PCB Schematic Peripherals](images/sch_2.PNG/?raw=true "SnakeTank PCB Schematic Periphs")
+
 ## Getting Started
 
 ### File Structure
-- ArduinoCloud - files pertaining to setting up arduino cloud
-
 - Camera - Arduino code for each ESP32 camera. 
    - ESP32_camera_webserverHost: Hosting a webserver locally on each MCU
 
@@ -31,15 +32,14 @@ A custom four layer PCB was designed for this project using a Signal+power/GND/G
    - Datasheets: Self explain
    - KiCAD: Kicad project files for custom PCB w/ ESP32
    - snakeTank_currentEstimate: Power estimate SS
-
-- Integration
+ 
+- Software
+  - Integration
    - LCD_DHT11: Arduino code for displaying data from sensors on LCD display
-
-- OnboardDisplay
+-    OnboardDisplay
    - 1602LCD: Basic test of displaying on 1602A
-   - LCD_interrupt: Displaying on 1602 through Arduino interrupts and timers
-   
-- SensorReading
+   - LCD_interrupt: Displaying on 1602 through Arduino interrupts and timers 
+-    SensorReading
    - DHT_test_arduino: Basic test of reading DHT11 data from module
    - DHT_dual: Running two sensors at once
 
